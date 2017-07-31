@@ -12,6 +12,10 @@ describe "solution" do
   it "should handle 2 counters increase" do
     expect(solution(3, [1, 3])).to eq [1, 0, 1]
   end
+  
+  it "should handle 3 counters increase" do
+    expect(solution(3, [1, 2, 3])).to eq [1, 1, 1]
+  end
 end
 
 
